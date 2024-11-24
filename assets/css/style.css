@@ -284,7 +284,7 @@ body {
 }
 
 .logo-2 img {
-  width: 100px; /* Adjust width */
+  width: 200px; /* Adjust width */
   height: auto; /* Maintain aspect ratio */
   margin-top: -10rem;
 }
@@ -659,7 +659,7 @@ color: #5C4033;}
 .footer-brand .logo { color: var(--white); }
 
 .footer-text {
-  line-height: 1.6;
+  line-height: 4.6;
   margin-block: 15px;
   color: var(--white);
   font-family: var(--ff-poppins);
@@ -676,7 +676,7 @@ color: #5C4033;}
 
 .schedule-icon,
 .footer-item .item-icon {
-  background-image: var(--gradient);
+  background-color: #483C32 ;
   color: var(--white);
   font-size: 18px;
   padding: 11px;
@@ -718,7 +718,7 @@ color: #5C4033;}
 .footer-item:not(:first-child) { margin-block-start: 20px; }
 
 .footer-bottom {
-  background-color: var(--oxford-blue-3);
+  background-color: #311203;
   padding-block: 50px;
   text-align: center;
 }
