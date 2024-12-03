@@ -236,7 +236,7 @@ body {
 
 
 /*-----------------------------------*\
-  #HEDER
+  #HEADER
 \*-----------------------------------*/
 
 .header-top,
@@ -412,10 +412,10 @@ color: #8B4513; }
   padding: 30px;
 }
 
-.service-card .card-icon {
+/* .service-card .card-icon {
   width: 50px;
   flex-shrink: 0;
-}
+} */
 
 .service-card .card-title { margin-block-end: 8px; 
 color: #5C4033;}
@@ -659,7 +659,7 @@ color: #5C4033;}
 .footer-brand .logo { color: var(--white); }
 
 .footer-text {
-  line-height: 4.6;
+  line-height: 1.2;
   margin-block: 15px;
   color: var(--white);
   font-family: var(--ff-poppins);
@@ -1025,7 +1025,7 @@ color: #5C4033;}
 
   .header-top {
     display: block;
-    background-color: var(--oxford-blue-1);
+    background-color: #5C4033;
     color: var(--white);
     padding-block: 20px;
   }
