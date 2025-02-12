@@ -400,6 +400,9 @@ color: #8B4513; }
 .service-list {
   display: grid;
   gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .service-card {
@@ -407,7 +410,7 @@ color: #8B4513; }
   align-items: flex-start;
   gap: 30px;
   min-height: 100%;
-  border: 1px solid var(--light-gray);
+  border: 10px solid var(--light-gray);
   border-radius: var(--radius-4);
   padding: 30px;
 }
