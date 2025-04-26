@@ -223,7 +223,7 @@ body {
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
   background-color: var(--light-gray);
-}
+} 
 
 .img-cover {
   width: 100%;
@@ -462,10 +462,14 @@ color: #5C4033;}
 
 .doctor-card {
   padding: 30px;
+  width: 350px;
+  height: 300px;
   border: 1px solid var(--light-gray);
   border-radius: var(--radius-4);
   text-align: center;
   min-height: 100%;
+  margin-top: -9rem;
+  margin-bottom: 15rem;
 }
 
 .doctor-card .card-title {
