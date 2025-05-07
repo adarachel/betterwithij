@@ -30,6 +30,33 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
     rel="stylesheet">
+
+    <style>
+      .service-image {
+        width: 100%;
+        height: auto;
+        max-width: 230px; /* default max size */
+      }
+  
+      /* Mobile screens */
+      @media (max-width: 600px) {
+        .service-image {
+        width: 100%;
+        height: auto;
+        max-width: 400px; /* default max size */
+      }
+        }
+      
+  
+      /* Desktop screens */
+      @media (min-width: 1024px) {
+        .service-image {
+        width: 100%;
+        height: auto;
+        max-width: 330px; /* default max size */
+      }
+      }
+    </style>
 </head>
 
 <body id="top">
@@ -111,21 +138,22 @@
             </li>
 
             <li>
+              <a href="news.html" class="navbar-link" data-nav-link>Our Blog</a>
+            </li>
+
+            <li>
+              <a href="dot.html" class="navbar-link" data-nav-link>DOT Physicals</a>
+            </li>
+
+            <li>
               <a href="#about" class="navbar-link" data-nav-link>About Us</a>
             </li>
 
-
-            <!-- <li>
-              <a href="case.html" class="navbar-link" data-nav-link>Case Studies</a>
-            </li> -->
-
             <li>
-              <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+              <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
             </li>
 
-            <li>
-              <a href="news.html" class="navbar-link" data-nav-link>Blog</a>
-            </li>
+            
 
           </ul>
         </nav>
@@ -252,21 +280,19 @@
               <h2 class="h2 section-title text-center">Where Wellness Meets Accountability</h2>
 
 
-          <ul class="service-list">
-
-            <li>
-              <div class="service-card">
-                <img src="assets/images/servicespic1.jpg" alt="Our holistic health and wellness services" class="service-image" style="width: 300px; height: 300px;">
-              </div>
-            </li>
-      
-            <li>
-              <div class="service-card">
-                <img src="assets/images/servicespic2.jpg" alt="Concierge health and diagnostic services" class="service-image" style="width: 300px; height: 300px;">
-              </div>
-            </li>
-      
-          </ul>
+              <ul class="service-list">
+                <li>
+                  <div class="service-card">
+                    <img src="assets/images/servicespic1.jpg" alt="Our holistic health and wellness services" class="service-image">
+                  </div>
+                </li>
+            
+                <li>
+                  <div class="service-card">
+                    <img src="assets/images/servicespic2.jpg" alt="Concierge health and diagnostic services" class="service-image">
+                  </div>
+                </li>
+              </ul>
 
         </div>
       </section>
