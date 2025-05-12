@@ -58,11 +58,10 @@
   text-align: center;
   display: block;
   width: 100%;
-  transition: background-color 0.3s ease;
 }
 
 .contact-form .btn:hover {
-  background-color: #2f4f4f; /* Dark slate gray on hover */
+  background-color: #f5e6d3; /* Dark slate gray on hover */
 }
 
 .hipaa-compliance {

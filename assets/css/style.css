@@ -546,17 +546,9 @@ color: #5C4033;}
 /* .cta { background-color: #483C32; } */
 
 .cta {
-  background: #483C32; /* Starting color (dark brown) */
+  background: #f5e6d3; /* Starting color (dark brown) */
   animation: darkColorCycle 6s linear infinite;
-}
-
-@keyframes darkColorCycle {
-  0% { background: #483C32; } /* Dark brown */
-  20% { background: #2F4F4F; } /* Dark slate gray */
-  40% { background: #4B0082; } /* Indigo */
-  60% { background: #2C2C54; } /* Dark blue-violet */
-  80% { background: #3D3C3A; } /* Charcoal */
-  100% { background: #483C32; } /* Back to dark brown */
+  align-items: center;
 }
 
 .cta-banner { margin-block-end: 50px; }
