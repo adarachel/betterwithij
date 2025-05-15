@@ -56,6 +56,33 @@
         max-width: 330px; /* default max size */
       }
       }
+
+      .promo-ticker {
+  background-color: #7B3F00; 
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 22px;
+  padding: 10px 0;
+  overflow: hidden;
+  position: relative;
+  z-index: 1000;
+}
+
+.ticker-text {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker 20s linear infinite;
+  padding-left: 100%;
+}
+
+@keyframes ticker {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
     </style>
 </head>
 
@@ -66,6 +93,13 @@
   -->
 
   <header class="header">
+
+<!-- Promo Ticker -->
+<div class="promo-ticker">
+  <div class="ticker-text">
+    <span>🚨 <b>BETTER WITH IJ CLINIC NOW OFFERS DOT PHYSICALS FOR COMMERCIAL DRIVERS! 🚨</b> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 💧 <b>IV HYDRATION & INFUSION THERAPY NOW AVAILABLE!</b> 💧</span>
+  </div>
+</div>
 
     <div class="header-top">
       <div class="container">
@@ -440,7 +474,7 @@
         - #ABOUT
       -->
 
-      <section class="section about" id="about" aria-label="about">
+      <section class="section about" id="about" aria-label="about" style="padding: 80px 50px;>
         <div class="container">
 
           <!-- <figure class="about-banner">
@@ -460,22 +494,6 @@
 As the owner of her own wellness practice, she combines her medical knowledge with an integrative approach to health and healing. She is passionate about preventive care, stress management, and alternatives to medication such as IV infusion therapy, mindfulness, and organic clean eating habits. With a thorough understanding of both traditional and alternative medicine, she encourages patients to take control of their health by developing customized wellness treatment plans which encourage whole-body wellness. 
 <br><br>
 She brings clinical precision, leadership expertise, and an integrated strategy to her practice, and she is dedicated to bridging the gap between modern medicine and natural healing to help people achieve the health they deserve.  
-            <!-- <p class="section-text">
-              <h2>Values:</h2><br>
-  <ul>
-    <li>Compassionate Care</li>
-    <li>Evidence-Based Treatment</li>
-    <li>Patient-Centered Approach</li>
-  </ul>
-  <br><br>
-  <p class="section-text">
-    <h2>Mission Statement:</h2><br>
-<ul>
-<li>I am an advocate for my patients' well-being. I believe that shared decision-making between my patients and myself improves healing and fosters trust.</li>
-</ul>
-            </p> -->
-
-            <!-- <a href="#" class="btn">Read more</a> -->
 
           </div>
 
@@ -554,7 +572,7 @@ She brings clinical precision, leadership expertise, and an integrated strategy 
         - #CTA
       -->
 
-      <section class="section cta" aria-label="cta">
+      <section class="section cta" aria-label="cta" style="background-color: #5C4033; padding: 50px 20px;>
         <div class="container">
 
           <div class="cta-content">
