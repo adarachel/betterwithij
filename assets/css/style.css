@@ -470,13 +470,13 @@ color: #5C4033;}
   text-align: center;
   min-height: 100%;
   margin-top: -20rem;
-  margin-bottom: 22rem;
+  margin-bottom: 19em;
 }
 
 .doctor-card .card-title {
   font-size: var(--fs-6);
   transition: var(--transition);
-  color: #483C32;
+  color: #A0522D;
 }
 
 .doctor-card:is(:hover, :focus-within) .card-title { color: var(--royal-blue-light); }
@@ -484,6 +484,12 @@ color: #5C4033;}
 .doctor-card .card-subtitle {
   color: #A0522D;
   margin-block: 10px 15px;
+}
+
+.doctor-card .card-subtitle-two {
+  color: #A0522D;
+  margin-block: 10px 15px;
+  margin-top: -1rem;
 }
 
 .doctor-card .card-social-list {
