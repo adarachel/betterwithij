@@ -311,6 +311,116 @@
             </li>
           </ul> -->
 
+          <!-- INSURANCE SECTION - FUN POPPY -->
+<section style="
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 2rem;
+  background: linear-gradient(135deg, #ffecd2, #fcb69f, #ffb6c1, #ffd4e5);
+  background-size: 350% 350%;
+  animation: funGradient 8s ease infinite;
+  font-family: 'Poppins', sans-serif;
+  color: #3a1f00;
+">
+
+  <!-- FLOATING BLOB DECOR -->
+  <div style="position:absolute; top:-60px; left:-50px; width:220px; height:220px; background:#ff7eb9; border-radius:50%; filter:blur(50px); opacity:0.55; animation:blob1 9s ease-in-out infinite;"></div>
+  <div style="position:absolute; bottom:-80px; right:-50px; width:260px; height:260px; background:#fecf6a; border-radius:50%; filter:blur(55px); opacity:0.55; animation:blob2 11s ease-in-out infinite;"></div>
+
+  <div style="text-align:center; position:relative; z-index:2;">
+    <h2 style="font-size:3.5rem; font-weight:800; margin-bottom:1rem; color:#b10053;">
+      Insurances Accepted
+    </h2>
+    <p style="font-size:1.9rem; max-width:750px; margin:0 auto; color:#5a2800;">
+      We welcome a range of insurance plans to ensure that quality care remains accessible for you and your family.
+    </p> 
+    </p>
+  </div>
+
+  <!-- GRID -->
+  <div style="
+    position:relative;
+    z-index:2;
+    max-width:1050px;
+    margin:4.5rem auto 0;
+    display:grid;
+    gap:3rem;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+  ">
+
+    <!-- BCBS CARD -->
+    <div style="background:white; border-radius:18px; padding:3rem; box-shadow:0 10px 30px rgba(0,0,0,0.15); animation:popUp 0.8s ease;">
+      <h3 style="font-size:2.4rem; font-weight:700; color:#b10053; text-align:center; margin-bottom:1.5rem;">
+        🩺 BlueCross Blue Shield TX Plans
+      </h3>
+      <div style="display:flex; flex-direction:column; gap:1.1rem;">
+        <div class="pop-tag" style="background:#ffe5f0;">PAR Plan</div>
+        <div class="pop-tag" style="background:#ffe5f0;">HME — Health Select</div>
+        <div class="pop-tag" style="background:#ffe5f0;">BAV — Blue Advantage HMO</div>
+        <div class="pop-tag" style="background:#ffe5f0;">BCA — BlueChoice PPO</div>
+        <div class="pop-tag" style="background:#ffe5f0;">HMO — Blue Essentials</div>
+      </div>
+    </div>
+
+    <!-- OTHER CARD -->
+    <div style="background:white; border-radius:18px; padding:3rem; box-shadow:0 10px 30px rgba(0,0,0,0.15); animation:popUp 1s ease;">
+      <h3 style="font-size:2.4rem; font-weight:700; color:#b10053; text-align:center; margin-bottom:1.5rem;">
+        🩺 Additional Plans
+      </h3>
+      <div style="display:flex; flex-direction:column; gap:1.1rem;">
+        <div class="pop-tag" style="background:#fff2d5;">MCH — Medicare Advantage HMO</div>
+        <div class="pop-tag" style="background:#fff2d5;">PMC — Medicare Advantage PPO</div>
+        <div class="pop-tag" style="background:#fff2d5;">SNP — Dual Eligible Special Needs Plan</div>
+        <div class="pop-tag" style="background:#fff2d5;">WEL — Wellmed MA HMO</div>
+        <div class="pop-tag" style="background:#fff2d5;">Ambetter (Superior Health)</div>
+        <div class="pop-tag" style="background:#fff2d5;">Cigna</div>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<style>
+@keyframes funGradient {
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+@keyframes blob1 {
+  0%,100%{transform:translate(0,0);}
+  50%{transform:translate(50px,40px);}
+}
+@keyframes blob2 {
+  0%,100%{transform:translate(0,0);}
+  50%{transform:translate(-45px,-35px);}
+}
+@keyframes popUp {
+  0%{opacity:0; transform:scale(0.85);}
+  100%{opacity:1; transform:scale(1);}
+}
+.pop-tag {
+  padding: 1rem 1.4rem;
+  border-radius: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #5a2800;
+  transition: 0.3s;
+}
+.pop-tag:hover {
+  transform: scale(1.08) rotate(-2deg);
+  background:#ffcae0 !important;
+}
+</style>
+
+<!-- <div style="display: flex; justify-content: center; gap: 20px; margin-top: 70px; margin-bottom: -70px; flex-wrap: wrap;">
+  <img src="assets/images/photo2.JPG" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">
+  <img src="assets/images/expo2.jpg" alt="Expo Event 2" style="width: 300px; height: auto; border-radius: 10px;">
+  <img src="assets/images/photo10.jpg" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">
+  <img src="assets/images/photo6.jpeg" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">  
+</div> -->
+
+
           <section class="section service" id="service" aria-label="service">
             <div class="container">
     
@@ -513,7 +623,7 @@ She brings clinical precision, leadership expertise, and an integrated strategy 
         - #DOCTOR
       -->
 
-      <section class="section doctor" aria-label="doctor">
+      <!-- <section class="section doctor" aria-label="doctor">
         <div class="container">
 
 
@@ -568,8 +678,14 @@ She brings clinical precision, leadership expertise, and an integrated strategy 
           </ul>
 
         </div>
-      </section>
+      </section> -->
 
+      <div style="display: flex; justify-content: center; gap: 20px; margin-top: 2px; margin-bottom: 55px; flex-wrap: wrap;">
+  <img src="assets/images/photo2.JPG" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">
+  <img src="assets/images/expo2.jpg" alt="Expo Event 2" style="width: 300px; height: auto; border-radius: 10px;">
+  <img src="assets/images/photo10.jpg" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">
+  <img src="assets/images/photo6.jpeg" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">  
+</div>
 
 
 
@@ -623,7 +739,7 @@ She brings clinical precision, leadership expertise, and an integrated strategy 
             </form> --> 
 
             <!-- Appointment Button -->
-            <a href="https://calendly.com/ij-betterwithij/30min" class="btn" style="margin-bottom: 3em;" target="_blank">Click here to schedule your service</a> 
+            <!-- <a href="https://calendly.com/ij-betterwithij/30min" class="btn" style="margin-bottom: 3em;" target="_blank">Click here to schedule your service</a>  -->
 
           </div>
 
