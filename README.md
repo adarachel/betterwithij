@@ -2,7 +2,7 @@
 
 ![Project Status](https://img.shields.io/badge/status-under%20development-orange.svg)
 
-This is a book review blog project made with HTML, CSS, and JavaScript by Ada Rachel as a contractor. This website is now completely developed, with ongoing maintenance and additions.
+This is a medical practice project made with HTML, CSS, and JavaScript by Ada Rachel as a contractor. This website is now completely developed, with ongoing maintenance and additions.
 
 ## Overview
 
