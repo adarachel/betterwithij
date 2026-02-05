@@ -422,14 +422,10 @@
 }
 </style>
 
-<!-- <div style="display: flex; justify-content: center; gap: 20px; margin-top: 70px; margin-bottom: -70px; flex-wrap: wrap;">
-  <img src="assets/images/photo2.JPG" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">
-  <img src="assets/images/expo2.jpg" alt="Expo Event 2" style="width: 300px; height: auto; border-radius: 10px;">
-  <img src="assets/images/photo10.jpg" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">
-  <img src="assets/images/photo6.jpeg" alt="Expo Event 1" style="width: 300px; height: auto; border-radius: 10px;">  
-</div> -->
 
-<!-- CONDITIONS & SERVICES SECTION -->
+<!-- DELETED SECTION GOES HERE -->
+
+<!-- CONDITIONS & SERVICES SECTION (REPLACED) -->
 <section style="
   position: relative;
   overflow: hidden;
@@ -448,83 +444,463 @@
   <!-- HEADING -->
   <div style="text-align:center; position:relative; z-index:2;">
     <h2 style="font-size:3.5rem; font-weight:800; margin-bottom:1rem; color:#b10053;">
-      Conditions & Services
+      Consultation Checklist
     </h2>
-    <p style="font-size:1.9rem; max-width:780px; margin:0 auto; color:#5a2800;">
-      We provide prompt, compassionate care for a wide range of conditions, along with on-site diagnostic testing and procedures.
+    <p style="font-size:1.9rem; max-width:900px; margin:0 auto; color:#5a2800;">
+      Start here if you’re new or unsure which service fits. This short checklist helps you prepare so your visit is focused, personalized, and effective.
     </p>
   </div>
 
-
-  <!-- TWO CARD COLUMNS -->
+  <!-- SINGLE CARD -->
   <div style="
     position:relative;
     z-index:2;
-    max-width:1100px;
-    margin:5rem auto 0;
-    display:grid;
-    gap:3rem;
-    grid-template-columns:repeat(auto-fit, minmax(380px, 1fr));
+    max-width:980px;
+    margin:4.5rem auto 0;
   ">
 
-    <!-- CONDITIONS CARD -->
-    <div style="background:white; border-radius:18px; padding:3rem; box-shadow:0 10px 30px rgba(0,0,0,0.15); animation:popUp 0.8s ease;">
-      <h3 style="font-size:2.4rem; font-weight:700; color:#b10053; text-align:center; margin-bottom:2rem;">
-        CONDITIONS WE TREAT
-      </h3>
+    <div style="
+      background:white;
+      border-radius:18px;
+      padding:3.2rem;
+      box-shadow:0 10px 30px rgba(0,0,0,0.15);
+      animation:popUp 0.8s ease;
+    ">
 
-      <div style="display:flex; flex-direction:column; gap:1.1rem;">
+      <!-- Two-column content (stacks on mobile) -->
+      <div class="bw-grid" style="
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap:2.5rem;
+        align-items:start;
+      ">
 
-        <div class="pop-tag" style="background:#ffe5f0;">Acid reflux</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Allergies</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Burns</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Bruises</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Childhood diseases</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Common colds</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Coronavirus (COVID-19)</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Ear infections</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Eye infections</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Fevers</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Flu</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Heartburn</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Hives</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Joint pain</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Minor cuts & lacerations</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Muscle strains or sprains</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Nausea</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Rashes</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Strep throat</div>
-        <div class="pop-tag" style="background:#ffe5f0;">Shingles</div>
-        <div class="pop-tag" style="background:#ffe5f0;">UTIs / Urinary tract infections</div>
+        <!-- BEFORE YOUR CONSULTATION -->
+        <div style="
+          background: rgba(255, 229, 240, 0.55);
+          border: 1px solid rgba(177, 0, 83, 0.12);
+          border-radius: 16px;
+          padding: 2.2rem;
+        ">
+          <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.2rem;">
+            <span style="
+              width:44px; height:44px; border-radius:12px;
+              display:inline-flex; align-items:center; justify-content:center;
+              background:#ffe5f0; color:#b10053; font-weight:800; font-size:2rem;
+              box-shadow:0 8px 18px rgba(177,0,83,0.12);
+            ">✓</span>
+            <h3 style="margin:0; font-size:2.2rem; font-weight:800; color:#b10053;">
+              Before Your Consultation
+            </h3>
+          </div>
+
+          <ul style="
+            margin:0;
+            padding-left: 1.7rem;
+            font-size:1.7rem;
+            color:#5a2800;
+            line-height:1.6;
+          ">
+            <li>• Complete your intake form (if sent)</li>
+            <li>• Gather recent labs/records (if available)</li>
+            <li>• Write your top 3 goals or concerns</li>
+            <li>• Note current meds/supplements and allergies</li>
+            <br>
+          </ul>
+        </div>
+
+        <!-- WHAT WE’LL COVER -->
+        <div style="
+          background: rgba(255, 247, 217, 0.7);
+          border: 1px solid rgba(90, 40, 0, 0.10);
+          border-radius: 16px;
+          padding: 2.2rem;
+        ">
+          <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1.2rem;">
+            <span style="
+              width:44px; height:44px; border-radius:12px;
+              display:inline-flex; align-items:center; justify-content:center;
+              background:#fff7d9; color:#5a2800; font-weight:900; font-size:2rem;
+              box-shadow:0 8px 18px rgba(90,40,0,0.10);
+            ">→</span>
+            <h3 style="margin:0; font-size:2.2rem; font-weight:800; color:#5a2800;">
+              What We’ll Cover
+            </h3>
+          </div>
+
+          <ul style="
+            margin:0;
+            padding-left: 1.7rem;
+            font-size:1.7rem;
+            color:#5a2800;
+            line-height:1.6;
+          ">
+            <li>• Health history + current symptoms</li>
+            <li>• Lifestyle patterns (nutrition, movement, sleep, stress)</li>
+            <li>• Preventive screening needs & labs</li>
+            <li>• A clear plan: next steps + follow-up recommendations</li>
+          </ul>
+        </div>
 
       </div>
-    </div>
 
+      <!-- BOOK THE RIGHT VISIT -->
+      <div style="margin-top:2.8rem;">
+        <div style="text-align:center; margin-bottom:1.6rem;">
+          <h3 style="font-size:2.4rem; font-weight:900; color:#b10053; margin:0 0 .6rem;">
+            Book the Right Visit
+          </h3>
+          <p style="font-size:1.75rem; color:#5a2800; margin:0;">
+            New here? Start with the General Wellness Consultation!
+          </p>
+        </div>
 
-    <!-- DIAGNOSTIC TESTS / PROCEDURES CARD -->
-    <div style="background:white; border-radius:18px; padding:3rem; box-shadow:0 10px 30px rgba(0,0,0,0.15); animation:popUp 1s ease;">
-      <h3 style="font-size:2.4rem; font-weight:700; color:#b10053; text-align:center; margin-bottom:2rem;">
-        DIAGNOSTIC TESTS & PROCEDURES
-      </h3>
+        <!-- ACCORDION LIST -->
+        <div class="bw-accordion" style="display:flex; flex-direction:column; gap:1.1rem;">
 
-      <div style="display:flex; flex-direction:column; gap:1.1rem;">
+          <!-- 1 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #ffe5f0, #fff7d9);
+              border:1px solid rgba(177,0,83,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span>
+                <span style="color:#b10053; font-weight:900;">1)</span> General Wellness Consultation 
+              </span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              For first-time clients, goal setting, and care planning.
+            </div>
+          </details>
 
-        <div class="pop-tag" style="background:#fff7d9;">COVID-19 Testing</div>
-        <div class="pop-tag" style="background:#fff7d9;">Strep Testing</div>
-        <div class="pop-tag" style="background:#fff7d9;">Flu Testing</div>
-        <div class="pop-tag" style="background:#fff7d9;">Foreign Body Removal</div>
-        <div class="pop-tag" style="background:#fff7d9;">Laboratory Testing (Lipid Panel, HgA1c, CMP, CBC)</div>
-        <div class="pop-tag" style="background:#fff7d9;">Laceration Repair</div>
-        <div class="pop-tag" style="background:#fff7d9;">Pregnancy Testing</div>
-        <div class="pop-tag" style="background:#fff7d9;">Sports Physicals</div>
-        <div class="pop-tag" style="background:#fff7d9;">STI Screenings</div>
-        <div class="pop-tag" style="background:#fff7d9;">UTI Testing</div>
+          <!-- 2 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #fff7d9, #ffe5f0);
+              border:1px solid rgba(90,40,0,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span><span style="color:#b10053; font-weight:900;">2)</span> Primary & Preventive Care</span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              Wellness visits, preventive screenings, chronic condition support.
+            </div>
+          </details>
 
+          <!-- 3 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #ffe5f0, #fff7d9);
+              border:1px solid rgba(177,0,83,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span><span style="color:#b10053; font-weight:900;">3)</span> Weight Management & Metabolic Health</span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              Sustainable weight management, diabesity coaching, GLP-1 support (when appropriate).
+            </div>
+          </details>
+
+          <!-- 4 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #fff7d9, #ffe5f0);
+              border:1px solid rgba(90,40,0,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span><span style="color:#b10053; font-weight:900;">4)</span> Women’s Health & Hormonal Wellness</span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              Perimenopause/menopause support, midlife optimization.
+            </div>
+          </details>
+
+          <!-- 5 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #ffe5f0, #fff7d9);
+              border:1px solid rgba(177,0,83,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span><span style="color:#b10053; font-weight:900;">5)</span> IV Hydration & Vitamin Therapy</span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              Energy, immunity support, athletic recovery, stress/burnout support.
+            </div>
+          </details>
+
+          <!-- 6 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #fff7d9, #ffe5f0);
+              border:1px solid rgba(90,40,0,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span><span style="color:#b10053; font-weight:900;">6)</span> Lifestyle Medicine & Health Coaching</span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              Stress management, sleep optimization, habit change support.
+            </div>
+          </details>
+
+          <!-- 7 -->
+          <details class="bw-detail" style="border-radius:14px; overflow:hidden;">
+            <summary class="bw-summary" style="
+              list-style:none;
+              cursor:pointer;
+              padding:1.4rem 1.6rem;
+              background: linear-gradient(90deg, #ffe5f0, #fff7d9);
+              border:1px solid rgba(177,0,83,0.10);
+              border-radius:14px;
+              display:flex;
+              align-items:center;
+              justify-content:space-between;
+              gap:1rem;
+              font-size:1.8rem;
+              font-weight:800;
+              color:#5a2800;
+            ">
+              <span><span style="color:#b10053; font-weight:900;">7)</span> Corporate & Workplace Wellness</span>
+              <span class="bw-chevron" aria-hidden="true" style="
+                width:38px; height:38px; border-radius:12px;
+                display:inline-flex; align-items:center; justify-content:center;
+                background:#ffffffcc;
+                border:1px solid rgba(90,40,0,0.10);
+                transition:transform .25s ease;
+                font-size:2rem;
+              ">⌄</span>
+            </summary>
+            <div style="
+              padding:1.4rem 1.6rem 1.7rem;
+              background:#fff;
+              border:1px solid rgba(90,40,0,0.08);
+              border-top:none;
+              border-radius: 0 0 14px 14px;
+              font-size:1.7rem;
+              color:#5a2800;
+              line-height:1.6;
+            ">
+              On-site screenings, workshops, executive wellness.
+            </div>
+          </details>
+
+        </div>
       </div>
+<br>
+       <div style="text-align:center;">
+  <a href="https://www.zocdoc.com/practice/better-with-ij-pllc-168240?lock=true&isNewPatient=false&referrerType=widget" 
+     target="_blank" 
+     title="Better With Ij, PLLC">
+    <img 
+      src="https://offsiteSchedule.zocdoc.com/images/remote/rb_BookAnAppt_Blue_214x74.png?type=bobhtml&monolith_provider_id=168240&practice_id=pt_Zozozg14t0WOiSF-EcvcAg" 
+      alt="Better With Ij, PLLC" 
+      title="Better With Ij, PLLC" 
+      style="border:0">
+  </a>
+</div>
+
+      <!-- AFTER YOU BOOK -->
+      <div style="
+        margin-top:2.8rem;
+        background: rgba(254, 207, 106, 0.20);
+        border: 1px dashed rgba(90, 40, 0, 0.22);
+        border-radius: 16px;
+        padding: 2.2rem;
+      ">
+        <div style="display:flex; align-items:center; gap:1rem; margin-bottom:1rem;">
+          <span style="
+            width:44px; height:44px; border-radius:12px;
+            display:inline-flex; align-items:center; justify-content:center;
+            background:#fecf6a; color:#3a1f00; font-weight:900; font-size:2rem;
+            box-shadow:0 10px 22px rgba(0,0,0,0.10);
+          ">★</span>
+          <h3 style="margin:0; font-size:2.2rem; font-weight:900; color:#3a1f00;">
+            After You Book
+          </h3>
+        </div>
+
+        <ul style="
+          margin:0;
+          padding-left: 1.7rem;
+          font-size:1.7rem;
+          color:#5a2800;
+          line-height:1.6;
+        ">
+          <li>• You’ll receive next-step instructions (forms, what to bring, and expectations)</li>
+          <li>• We’ll confirm your appointment and any pre-visit needs</li>
+        </ul>
+      </div>
+
+      
 
     </div>
 
   </div>
+
+  
 
 </section>
 
@@ -546,26 +922,26 @@
   0%{opacity:0; transform:scale(0.85);}
   100%{opacity:1; transform:scale(1);}
 }
-.pop-tag {
-  padding: 1rem 1.4rem;
-  border-radius: 10px;
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #5a2800;
-  transition: 0.3s;
-}
-.pop-tag:hover {
-  transform: scale(1.08) rotate(-2deg);
-  background:#ffcae0 !important;
+
+/* Optional: hide default summary marker in most browsers */
+.bw-summary::-webkit-details-marker { display:none; }
+.bw-summary { user-select:none; }
+
+/* Rotate chevron when open */
+.bw-detail[open] .bw-chevron { transform: rotate(180deg); }
+
+/* Soft hover */
+.bw-summary:hover {
+  transform: scale(1.01);
+  transition: 0.2s ease;
 }
 
-/* Responsive: cards stack */
-@media(max-width: 768px){
-  .services-row {
-    grid-template-columns:1fr !important;
-  }
+/* Responsive: stack top grid on mobile */
+@media(max-width: 900px){
+  .bw-grid { grid-template-columns: 1fr !important; }
 }
 </style>
+
 
 
 
