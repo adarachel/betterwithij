@@ -724,7 +724,7 @@ color: #5C4033;}
 .footer-item:not(:first-child) { margin-block-start: 20px; }
 
 .footer-bottom {
-  background-color: #311203;
+  background-color: #0f6865;
   padding-block: 50px;
   text-align: center;
 }
@@ -1059,7 +1059,7 @@ color: #5C4033;}
 
   .header-top {
     display: block;
-    background-color: #5C4033;
+    background-color: #0f6865;
     color: var(--white);
     padding-block: 20px;
   }
